@@ -10,7 +10,7 @@ function getRandomInt(min, max){
 
 function rollDice(){
     var randNum = getRandomInt(1,6);
-    console.log(randNum);
+    // console.log(randNum);
     var showClass = 'show-' + randNum;
     if (currentClass){
         cube.classList.remove(currentClass);
