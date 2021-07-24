@@ -1,0 +1,15 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: monospace;
+    background: green;
+    color: white;
+}
+.scene{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    perspective: 600px;
+}
+
